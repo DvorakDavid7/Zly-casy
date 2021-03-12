@@ -1,0 +1,94 @@
+.clock {
+    display: none;
+}
+
+.climber {
+    display: none;
+}
+
+@media (min-width: 1300px) {
+    .clock {
+        display: initial;
+        border-radius: 50%;
+        background: black url(/public/images/clock/image.png);
+        background-position: center;
+        background-size: 109.7%;
+        height: 20em;
+        position: absolute;
+        width: 20em;
+        top: -50px;
+        left: 100px;
+        z-index: 997;
+
+    }
+
+    .clock:after {
+        background: white;
+        border-radius: 50%;
+        content: "";
+        position: absolute;
+        left: 51%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 5%;
+        height: 5%;
+        z-index: 10;
+    }
+
+    .hours {
+        background: white;
+        height: 30%;
+        left: 50%;
+        position: absolute;
+        top: 21%;
+        transform-origin: 50% 100%;
+        width: 2.5%;
+        // transform: rotateZ(70deg);
+    }
+
+    .height {
+        height: 2000px;
+    }
+
+    .minutes {
+        background: white;
+        height: 40%;
+        left: 50%;
+        position: absolute;
+        top: 21%;
+        transform-origin: 50% 100%;
+        width: 2%;
+    }
+
+    .seconds {
+        background: white;
+        height: 45%;
+        left: 50.5%;
+        position: absolute;
+        top: 21%;
+        transform-origin: 50% 80%;
+        width: 1%;
+        z-index: 8;
+    }
+
+    .clock-title {
+        font-size: 65px;
+        color: aliceblue;
+        z-index: 999;
+        position: absolute;
+        top: -5%;
+        left: -35px;
+        transform: rotateZ(-20deg);
+        -webkit-text-stroke: 2px black;
+        font-family: "Ruslan Display";
+    }
+
+    .climber {
+        display: initial;
+        background-position: center;
+        background-size: 109.7%;
+        position: absolute;
+        top: 140px;
+        left: 100px;
+    }
+}

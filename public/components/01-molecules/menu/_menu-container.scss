@@ -1,0 +1,16 @@
+@import "../../00-atoms/text/title-menu";
+@import "../../00-atoms/shapes/menu-shape";
+@import "../../00-atoms/text/menu-title";
+@import "../../00-atoms/text/menu-holder_text";
+@import "../../00-atoms/text/menu-holder_title";
+@import "../../00-atoms/buttons/btn-info";
+@import "../../00-atoms/shapes/clock";
+
+.menu {
+    background-color: white;
+    position: relative;
+}
+
+.menu-holder {
+    padding-top: 10px;
+}

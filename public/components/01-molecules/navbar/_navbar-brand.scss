@@ -1,0 +1,8 @@
+@import "../../00-atoms/images/brand-image";
+@import "../../00-atoms/text/navbar-brand_title";
+
+@media (min-width: 1200px) {
+    #navbar-brand_image {
+        display: initial;
+    }
+}

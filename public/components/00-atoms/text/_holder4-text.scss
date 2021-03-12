@@ -1,0 +1,21 @@
+.holder4-text {
+    position: absolute;
+    top: 414px;
+    left: 85px;
+    color: white;
+    font-family: "Ruslan Display";
+    font-size: 25px;
+    z-index: 950;
+}
+
+@media (min-width: 1200px) {
+    .holder4-text {
+        position: absolute;
+        top: 414px;
+        left: 170px;
+        color: white;
+        font-family: "Ruslan Display";
+        font-size: 25px;
+        z-index: 950;
+    }
+}

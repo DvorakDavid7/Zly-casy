@@ -1,0 +1,36 @@
+.hamburger-menu {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    // background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.hamburger-menu i {
+    font-size: 30px;
+    color: white;
+    margin: auto;
+}
+
+.hamburger-menu .fa-times {
+    display: none;
+}
+
+.hamburger-menu .fa-times.open {
+    display: block;
+}
+
+.hamburger-menu .fa-bars.open {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .hamburger-menu {
+        display: none;
+    }
+}
