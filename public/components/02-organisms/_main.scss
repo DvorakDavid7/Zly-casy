@@ -1,0 +1,26 @@
+@import "../00-atoms/text/title-presets";
+@import "../01-molecules/presets/preset";
+@import "../01-molecules/menu/menu-container";
+
+//chess
+@import "../01-molecules/chess/chess-group";
+
+//footer
+@import "../01-molecules/footer/info-container";
+
+
+
+.presets {
+    background-color: black;
+    padding-bottom: 3rem;
+}
+
+.menu {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    background-color: black;
+    padding-top: 50px;
+}

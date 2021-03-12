@@ -1,0 +1,11 @@
+@import "../01-molecules/navbar/navbar-brand";
+@import "../01-molecules/navbar/navbar-menu";
+@import "../00-atoms/buttons/btn-rezervace";
+@import "../00-atoms/shapes/navbar-line";
+@import "../01-molecules/hero/hero";
+
+.navbar {
+    position: relative;
+    background-color: black;
+    padding: 0px;
+}

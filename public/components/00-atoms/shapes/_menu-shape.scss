@@ -1,0 +1,17 @@
+.menu-menu {
+    height: 600px;
+    width: 450px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 20px;
+}
+
+
+
+@media (min-width: 1300px) {
+    .menu-menu {
+        height: 650px;
+        width: 1000px;
+        display: inline-block;
+    }
+}

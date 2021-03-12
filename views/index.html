@@ -1,11 +1,224 @@
-<!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zlý časy</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/public/dist/css/style.css">
+    <title>Document</title>
 </head>
+
+
 <body>
-<h1>Zlý časy</h1>
+    <header>
+        <div class="container">
+            <div class="hamburger-menu">
+                <i class="fas fa-bars toggle"></i>
+                <i class="fas fa-times toggle"></i>
+            </div>
+            <nav class="navbar">
+                <a href="" class="navbar-brand">
+                    <img src="/public/images/man.jpg" id="navbar-brand_image">
+                    <h1 class="navbar-brand_title">Zlý Časy</h1>
+                </a>
+                <ul class="navbar-menu">
+                    <li class="navbar-menu_item">
+                        <a href="" class="navbar-menu_link">O Nás</a>
+                    </li>
+                    <li class="navbar-menu_item">
+                        <a href="" class="navbar-menu_link">Aktuality</a>
+                    </li>
+                    <li class="navbar-menu_item">
+                        <a href="" class="navbar-menu_link">Jídelák</a>
+                    </li>
+                </ul>
+                <div class="rezervace">
+                    <a href="" class="btn-rezervace">REZERVACE</a>
+                </div>
+                <hr class="navbar-line">
+            </nav>
+            <div class="hero" id="paralax1">
+                <!-- <img src="/public/images/hero.jpg" class="img-fluid" id="hero-image"> -->
+                <h1 class="hero-title">
+                    NEJVĚTŠÍ VÝBĚR 
+                    PIV V PRAZE
+                </h1>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="presets">
+            <div class="container text-center">
+                <h1 class="title-presets">TO NEJLEPŠÍ Z NAŠICH PIV</h1>
+                <div class="row">
+                    <div class="col-12 col-sm-4 preset text-center">
+                        <div class="preset-container">
+                            <div class="preset-front">
+                                <h1>TITLE</h1>
+                                <img src="/public/images/preset-1.jpg" alt="" class="img-preset">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 preset text-center">
+                        <div class="preset-container">
+                            <div class="preset-front">
+                                <h1>TITLE</h1>
+                                <img src="/public/images/preset-1.jpg" alt="" class="img-preset">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 preset text-center">
+                        <div class="preset-container text-center">
+                            <div class="preset-front">
+                                <h1>TITLE</h1>
+                                <img src="/public/images/preset-1.jpg" alt="" class="img-preset">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="btn-info">Celá nabídka našich piv</a>
+            </div>        
+        </section>
+
+        <section class="menu text-center">
+            <article class="clock">
+                <div class="hours-container">
+                  <div class="hours"></div>
+                </div>
+                <div class="minutes-container">
+                  <div class="minutes"></div>
+                </div>
+                <div class="seconds-container">
+                  <div class="seconds"></div>
+                </div>
+                <h1 class="clock-title">Zlý Časy</h1>
+              </article>
+              <div class="climber">
+                <img src="/public/images/clock/climb.png" alt="">
+              </div>
+            <div class="container ">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1 class="title-menu">JÍDELNÍ A NÁPOJOVÝ LÍSTEK</h1>
+                        <div class="menu-menu">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="menu-holder">
+                                        <h1>ŽRÁDLO</h1>
+                                        <div class="food-info">
+                                            <h3>FOOD TITLE.....................50 Kč</h3>
+                                            <p class="food-desc">with cum</p>
+                                        </div>
+                                        <div class="food-info">
+                                            <h3>FOOD TITLE</h3>
+                                            <p class="food-desc">with cum</p>
+                                        </div>
+                                        <div class="food-info">
+                                            <h3>FOOD TITLE</h3>
+                                            <p class="food-desc">with cum</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="menu-holder">
+                                        <h1>CHLAST</h1>
+                                        <p>FOOD</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="menu-holder">
+                                        <h1>POLÍVKY</h1>
+                                        <p>FOOD</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="menu-holder">
+                                        <h1>VEGAN</h1>
+                                        <p>FOOD</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn-info">CELÉ MENU</a>
+        </section>
+
+        <section class="chess">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="chess-holder holder1">
+                            <img src="/public/images/chess-beer.jfif" class="image-beer">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="chess-holder holder2" id="paralax2">
+                            <h1>O nás</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium eaque ut velit quaerat excepturi suscipit ipsam voluptas culpa. Autem, eum aperiam. Dolor eligendi et quos excepturi amet voluptas sunt!</p>
+                            <a href="" class="btn-info">Více o nás</a>
+                            <!-- <img src="/public/images/pattern.jpg" alt=""> -->
+                        </div>
+                        
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="chess-holder holder3">
+                            <img src="/public/images/map.jpg" class="image-beer">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="chess-holder holder4">
+                            <img src="/public/images/chess-out.jpg" class="image-beer">
+                            <h2 class="holder4-text">Čestmírova 5 Praha 4</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 text-center footer-contact">
+                        <h2>Hospoda Zlý Časy</h2>
+                        <p>ADRESA</p>
+                        <p>TEL</p>
+                        <p>EMAIL</p>
+                    </div>
+                    <div class="col-4 text-center footer-info">
+                        <h2>Denně Otevřeno</h2>
+                        <p>AŽ-AŽ</p>
+                        <p>AŽ-AŽ</p>
+                    </div>
+                    <div class="col-4 text-center footer-links">
+                        <h2>Více Na</h2>
+                        <p>FACEBOOK</p>
+                        <p>INSTA</p>
+                    </div>
+                </div>
+                <div class="text-center mb-0">
+                    <p>DAVID DVOŘÁK & JAROSLAV PROCHÁZKA</p>
+                </div>
+            </div>
+            <!-- <img src="../images/clock.jpg" alt=""> -->
+        </section>
+    </main>
+    
+
+
+    <script src="../public/dist/app.js"></script>
+    <script src="https://kit.fontawesome.com/ba33ab971e.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <!-- <script src="scripts.js" type="text/javascript"></script> -->
 </body>
 </html>

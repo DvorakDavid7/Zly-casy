@@ -1,0 +1,14 @@
+.img-preset {
+    width: 50%;
+    height: 80%;
+    border-radius: 15px;
+    transition: .2s;
+    filter: blur(1px);
+}
+
+.img-preset:hover {
+    width: 52%;
+    height: 86%;
+    z-index: 149;
+    filter: blur(0px);
+}

@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../components/02-organisms/navbar.scss",
+        "../../components/01-molecules/navbar/_navbar-brand.scss",
+        "../../components/01-molecules/navbar/_navbar-nav.scss"
+    ],
+    "names": [],
+    "file": "navbar.css"
+}
